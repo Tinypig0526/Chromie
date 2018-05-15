@@ -1,0 +1,65 @@
+.navbar{
+    width: 100%;
+    height: 40px;
+    padding: 0!important;
+    margin: 0;
+    background-color: gold;
+}
+
+.title{
+    color:white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.main_img{
+    width: 100%;
+}
+
+.pro_img{
+    width: 90%;
+}
+
+.pro_row{
+    padding: 12px 0 12px 0;
+}
+
+.pro_col{
+    text-align: center;
+    padding: 0;
+    /*border: white 1px solid;*/
+}
+
+.pro_name{
+    line-height: 1.6rem;
+    /*vertical-align: middle;*/
+    margin: 0;
+}
+
+.pro_price{
+    font-size: 1.8rem;
+    border-top: 1px solid #B7930D;
+}
+
+.desc_div{
+    font-size: 1rem;
+    color: #B7930D;
+    margin-left: 5%;
+    width: 90%;
+    background-color: #333333;
+}
+
+.gold_buy{
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    margin: 0;
+    color: gold;
+    background:none;
+    text-shadow:0 0 0.1em gold, -0 -0 0.1em gold;
+    border: goldenrod 1px solid;
+}
+
+.desc_col{
+ text-align: left;
+}
