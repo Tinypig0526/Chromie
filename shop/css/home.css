@@ -13,6 +13,11 @@
     margin-top: 10px;
 }
 
+.bg_black{
+    background-color: #111111;
+    width: 100%;
+}
+
 .main_img{
     width: 100%;
 }
@@ -63,3 +68,25 @@
 .desc_col{
  text-align: left;
 }
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 优惠券 ~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.quan{
+    width: 100%;
+}
+.quan_btn{
+    width: 100%;
+    margin-top: 6px;
+    font-size: 1.8rem;
+}
+
+.quan_div{
+    padding: 1rem 0 1rem 0;
+}
+
+.quan_desc{
+    text-align: center;
+    color: white;
+
+}
+iv {margin:5px;color:black;  }

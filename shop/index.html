@@ -12,18 +12,34 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/home.css">
 </head>
-<body>
+<body  onload="countTime()">
     <div class="navbar">
         <h2 class="title">SATION-CONTROL</h2>
         <!-- <h2 class="title">善缘堂-韩国最大的宗教用品商城</h2> -->
     </div>
-    <div style="background-color: #111111">
-        <img class="coupon" src="./" alt="">
-    </div>
+
+
 
     <div>
         <img class="main_img" src="./img/1.jpg" alt="">
-        <div class="container" style="background-color: #111111">
+
+        <div class="container bg_black" >
+            <div class="row quan_div">
+                <div class="col-xs-2  col-sm-4">
+                </div>
+                <div class="col-xs-8  col-sm-4 ">
+                    <img class="quan" src="./img/quan.png" alt="">
+                    <button class="btn btn-warning quan_btn">点击领取</button>
+                </div>
+                <div class="col-xs-2  col-sm-4">
+                </div>
+            </div>
+            <p class="quan_desc">垃圾</p>
+        </div>
+
+        <img class="main_img" src="./img/2.jpg" alt="">
+
+        <div class="container bg_black" >
             <div class="row pro_row" >
                 <div  class="col-xs-6 col-sm-3  pro_col"   >
                     <img class="pro_img" src="./img/p1.jpg" alt="">
@@ -76,13 +92,329 @@
             </div>
         </div>
 
-        <img class="main_img" src="./img/2.jpg" alt="">
+        <div class="container bg_black" >
+            <div class="row pro_row" >
+                <div  class="col-xs-6 col-sm-3  pro_col"   >
+                    <img class="pro_img" src="./img/p1.jpg" alt="">
+                    <div class="desc_div row">
+                        <div class="col-xs-12 col-sm-8 desc_col">
+                            <p class="pro_name">尼泊尔玄武纹星月菩提子</p>
+                            <span  class="pro_price">$188</span>
+                        </div>
+                        <div class="visible-sm-block col-sm-4 " >
+                            <button class="btn  gold_buy">立即<br>购买</button>
+                        </div>
+                    </div>
+                </div>
+                <div  class="col-xs-6 col-sm-3  pro_col" >
+                    <img class="pro_img" src="./img/p2.jpg" alt="">
+                    <div class="desc_div row">
+                        <div class="col-xs-12 col-sm-8 desc_col">
+                            <p class="pro_name">尼泊尔玄武纹星月菩提子</p>
+                            <span  class="pro_price">$188</span>
+                        </div>
+                        <div class="visible-sm-block col-sm-4" >
+                            <button class="btn  gold_buy">立即<br>购买</button>
+                        </div>
+                    </div>
+                </div>
+                <div  class="col-xs-6 col-sm-3 pro_col" >
+                    <img class="pro_img" src="./img/p3.jpg" alt="">
+                    <div class="desc_div row">
+                        <div class="col-xs-12 col-sm-8 desc_col">
+                            <p class="pro_name">尼泊尔玄武纹星月菩提子</p>
+                            <span  class="pro_price">$188</span>
+                        </div>
+                        <div class="visible-sm-block col-sm-4 " >
+                            <button class="btn  gold_buy">立即<br>购买</button>
+                        </div>
+                    </div>
+                </div>
+                <div  class="col-xs-6 col-sm-3 pro_col" >
+                    <img class="pro_img" src="./img/p4.jpg" alt="">
+                    <div class="desc_div row">
+                        <div class="col-xs-12 col-sm-8 desc_col">
+                            <p class="pro_name">尼泊尔玄武纹星月菩提子</p>
+                            <span  class="pro_price">$188</span>
+                        </div>
+                        <div class="visible-sm-block col-sm-4 " >
+                            <button class="btn  gold_buy">立即<br>购买</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <img class="main_img" src="./img/3.jpg" alt="">
+
+        <div class="bg_black" style="color:white">
+            <p>618年中钜惠 活动截止:</p>
+            <p>
+                <span id="_d">00</span>
+                <span id="_h">00</span>
+                <span id="_m">00</span>
+                <span id="_s">00</span>
+            </p>
+            <p>活动结束后恢复原价</p>
+        </div>
+
+        <div class="container bg_black" >
+            <div class="row pro_row" >
+                <div  class="col-xs-6 col-sm-3  pro_col"   >
+                    <img class="pro_img" src="./img/p1.jpg" alt="">
+                    <div class="desc_div row">
+                        <div class="col-xs-12 col-sm-8 desc_col">
+                            <p class="pro_name">尼泊尔玄武纹星月菩提子</p>
+                            <span  class="pro_price">$188</span>
+                        </div>
+                        <div class="visible-sm-block col-sm-4 " >
+                            <button class="btn  gold_buy">立即<br>购买</button>
+                        </div>
+                    </div>
+                </div>
+                <div  class="col-xs-6 col-sm-3  pro_col" >
+                    <img class="pro_img" src="./img/p2.jpg" alt="">
+                    <div class="desc_div row">
+                        <div class="col-xs-12 col-sm-8 desc_col">
+                            <p class="pro_name">尼泊尔玄武纹星月菩提子</p>
+                            <span  class="pro_price">$188</span>
+                        </div>
+                        <div class="visible-sm-block col-sm-4" >
+                            <button class="btn  gold_buy">立即<br>购买</button>
+                        </div>
+                    </div>
+                </div>
+                <div  class="col-xs-6 col-sm-3 pro_col" >
+                    <img class="pro_img" src="./img/p3.jpg" alt="">
+                    <div class="desc_div row">
+                        <div class="col-xs-12 col-sm-8 desc_col">
+                            <p class="pro_name">尼泊尔玄武纹星月菩提子</p>
+                            <span  class="pro_price">$188</span>
+                        </div>
+                        <div class="visible-sm-block col-sm-4 " >
+                            <button class="btn  gold_buy">立即<br>购买</button>
+                        </div>
+                    </div>
+                </div>
+                <div  class="col-xs-6 col-sm-3 pro_col" >
+                    <img class="pro_img" src="./img/p4.jpg" alt="">
+                    <div class="desc_div row">
+                        <div class="col-xs-12 col-sm-8 desc_col">
+                            <p class="pro_name">尼泊尔玄武纹星月菩提子</p>
+                            <span  class="pro_price">$188</span>
+                        </div>
+                        <div class="visible-sm-block col-sm-4 " >
+                            <button class="btn  gold_buy">立即<br>购买</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container bg_black" >
+            <div class="row pro_row" >
+                <div  class="col-xs-6 col-sm-3  pro_col"   >
+                    <img class="pro_img" src="./img/p1.jpg" alt="">
+                    <div class="desc_div row">
+                        <div class="col-xs-12 col-sm-8 desc_col">
+                            <p class="pro_name">尼泊尔玄武纹星月菩提子</p>
+                            <span  class="pro_price">$188</span>
+                        </div>
+                        <div class="visible-sm-block col-sm-4 " >
+                            <button class="btn  gold_buy">立即<br>购买</button>
+                        </div>
+                    </div>
+                </div>
+                <div  class="col-xs-6 col-sm-3  pro_col" >
+                    <img class="pro_img" src="./img/p2.jpg" alt="">
+                    <div class="desc_div row">
+                        <div class="col-xs-12 col-sm-8 desc_col">
+                            <p class="pro_name">尼泊尔玄武纹星月菩提子</p>
+                            <span  class="pro_price">$188</span>
+                        </div>
+                        <div class="visible-sm-block col-sm-4" >
+                            <button class="btn  gold_buy">立即<br>购买</button>
+                        </div>
+                    </div>
+                </div>
+                <div  class="col-xs-6 col-sm-3 pro_col" >
+                    <img class="pro_img" src="./img/p3.jpg" alt="">
+                    <div class="desc_div row">
+                        <div class="col-xs-12 col-sm-8 desc_col">
+                            <p class="pro_name">尼泊尔玄武纹星月菩提子</p>
+                            <span  class="pro_price">$188</span>
+                        </div>
+                        <div class="visible-sm-block col-sm-4 " >
+                            <button class="btn  gold_buy">立即<br>购买</button>
+                        </div>
+                    </div>
+                </div>
+                <div  class="col-xs-6 col-sm-3 pro_col" >
+                    <img class="pro_img" src="./img/p4.jpg" alt="">
+                    <div class="desc_div row">
+                        <div class="col-xs-12 col-sm-8 desc_col">
+                            <p class="pro_name">尼泊尔玄武纹星月菩提子</p>
+                            <span  class="pro_price">$188</span>
+                        </div>
+                        <div class="visible-sm-block col-sm-4 " >
+                            <button class="btn  gold_buy">立即<br>购买</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <img class="main_img" src="./img/4.jpg" alt="">
-        <img class="main_img" src="./img/5.jpg" alt="">
-        <img class="main_img" src="./img/6.jpg" alt="">
-        <img class="main_img" src="./img/7.jpg" alt="">
-        <img class="main_img" src="./img/8.jpg" alt="">
+
+        <div class="container bg_black" >
+            <div class="row pro_row" >
+                <div  class="col-xs-6 col-sm-3  pro_col"   >
+                    <img class="pro_img" src="./img/p1.jpg" alt="">
+                    <div class="desc_div row">
+                        <div class="col-xs-12 col-sm-8 desc_col">
+                            <p class="pro_name">尼泊尔玄武纹星月菩提子</p>
+                            <span  class="pro_price">$188</span>
+                        </div>
+                        <div class="visible-sm-block col-sm-4 " >
+                            <button class="btn  gold_buy">立即<br>购买</button>
+                        </div>
+                    </div>
+                </div>
+                <div  class="col-xs-6 col-sm-3  pro_col" >
+                    <img class="pro_img" src="./img/p2.jpg" alt="">
+                    <div class="desc_div row">
+                        <div class="col-xs-12 col-sm-8 desc_col">
+                            <p class="pro_name">尼泊尔玄武纹星月菩提子</p>
+                            <span  class="pro_price">$188</span>
+                        </div>
+                        <div class="visible-sm-block col-sm-4" >
+                            <button class="btn  gold_buy">立即<br>购买</button>
+                        </div>
+                    </div>
+                </div>
+                <div  class="col-xs-6 col-sm-3 pro_col" >
+                    <img class="pro_img" src="./img/p3.jpg" alt="">
+                    <div class="desc_div row">
+                        <div class="col-xs-12 col-sm-8 desc_col">
+                            <p class="pro_name">尼泊尔玄武纹星月菩提子</p>
+                            <span  class="pro_price">$188</span>
+                        </div>
+                        <div class="visible-sm-block col-sm-4 " >
+                            <button class="btn  gold_buy">立即<br>购买</button>
+                        </div>
+                    </div>
+                </div>
+                <div  class="col-xs-6 col-sm-3 pro_col" >
+                    <img class="pro_img" src="./img/p4.jpg" alt="">
+                    <div class="desc_div row">
+                        <div class="col-xs-12 col-sm-8 desc_col">
+                            <p class="pro_name">尼泊尔玄武纹星月菩提子</p>
+                            <span  class="pro_price">$188</span>
+                        </div>
+                        <div class="visible-sm-block col-sm-4 " >
+                            <button class="btn  gold_buy">立即<br>购买</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container bg_black" >
+            <div class="row pro_row" >
+                <div  class="col-xs-6 col-sm-3  pro_col"   >
+                    <img class="pro_img" src="./img/p1.jpg" alt="">
+                    <div class="desc_div row">
+                        <div class="col-xs-12 col-sm-8 desc_col">
+                            <p class="pro_name">尼泊尔玄武纹星月菩提子</p>
+                            <span  class="pro_price">$188</span>
+                        </div>
+                        <div class="visible-sm-block col-sm-4 " >
+                            <button class="btn  gold_buy">立即<br>购买</button>
+                        </div>
+                    </div>
+                </div>
+                <div  class="col-xs-6 col-sm-3  pro_col" >
+                    <img class="pro_img" src="./img/p2.jpg" alt="">
+                    <div class="desc_div row">
+                        <div class="col-xs-12 col-sm-8 desc_col">
+                            <p class="pro_name">尼泊尔玄武纹星月菩提子</p>
+                            <span  class="pro_price">$188</span>
+                        </div>
+                        <div class="visible-sm-block col-sm-4" >
+                            <button class="btn  gold_buy">立即<br>购买</button>
+                        </div>
+                    </div>
+                </div>
+                <div  class="col-xs-6 col-sm-3 pro_col" >
+                    <img class="pro_img" src="./img/p3.jpg" alt="">
+                    <div class="desc_div row">
+                        <div class="col-xs-12 col-sm-8 desc_col">
+                            <p class="pro_name">尼泊尔玄武纹星月菩提子</p>
+                            <span  class="pro_price">$188</span>
+                        </div>
+                        <div class="visible-sm-block col-sm-4 " >
+                            <button class="btn  gold_buy">立即<br>购买</button>
+                        </div>
+                    </div>
+                </div>
+                <div  class="col-xs-6 col-sm-3 pro_col" >
+                    <img class="pro_img" src="./img/p4.jpg" alt="">
+                    <div class="desc_div row">
+                        <div class="col-xs-12 col-sm-8 desc_col">
+                            <p class="pro_name">尼泊尔玄武纹星月菩提子</p>
+                            <span  class="pro_price">$188</span>
+                        </div>
+                        <div class="visible-sm-block col-sm-4 " >
+                            <button class="btn  gold_buy">立即<br>购买</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <marquee scrollAmount=2 width=300 height=160 direction=up>
+            ·早晨好啊！<br>·空气好清新啊<br>·今朝食乜好呢？<p>·<a href=http://www.cctv.com><中></中>央电视台</a>
+        </marquee>　　
+
     </div>
 </body>
+<script>
+    var time_month = 5;
+    var time_day = 22;
+
+    function countTime() {
+        //获取当前时间
+        var date = new Date();
+        var now = date.getTime();
+        //设置截止时间
+        var str="2018/5/22 00:00:00";
+        var endDate = new Date(str);
+        var end = endDate.getTime();
+        //时间差
+        var leftTime = end-now;
+        //定义变量 d,h,m,s保存倒计时的时间
+        // console.log(leftTime);
+        var d,h,m,s;
+        if (leftTime>=0) {
+            d = Math.floor(leftTime/1000/60/60/24);
+            h = Math.floor(leftTime/1000/60/60%24);
+            m = Math.floor(leftTime/1000/60%60);
+            s = Math.floor(leftTime/1000%60);
+        }
+        //将倒计时赋值到div中
+        document.getElementById("_d").innerHTML = d+"天";
+        document.getElementById("_h").innerHTML = h+"时";
+        document.getElementById("_m").innerHTML = m+"分";
+        document.getElementById("_s").innerHTML = s+"秒";
+        //递归每秒调用countTime方法，显示动态时间效果
+        setTimeout(countTime,1000);
+        console.log(d,h,m,s);
+
+    }
+
+
+
+    $(document).ready(function () {
+        $(".quan_desc").html('此优惠券领取后有效期24小时，可叠加使用无限次，活动于'+ time_month + '月' + time_day + ' 日23:59截至，截止后优惠券停止使用');
+
+    })
+</script>
 </html>
